@@ -1,7 +1,7 @@
 # AI-Yoga
 
 <h1>Introduction</h1>
-I created a website using react JS to work as an AI yoga trainer to promote a healthy lifestyle amongst people. The website's AI backend was written using TensorflowJs and MoveNet for fast realtime and accurate pose estimation. The yoga trainer current;y supports 7 yoga poses. The website uses the camera of your device to predict your pose and counts how many seconds you can hold that pose and records your best time. This website is a part of bigger SyncFit App <a href="https://github.com/The-Powerpuff-Rangers/sync-fit">https://github.com/The-Powerpuff-Rangers/sync-fit</a>. This app and website were built in under 24 hours in HackCBS Hackathon under the health track.
+I created a website using react JS to work as an AI yoga trainer to promote a healthy lifestyle amongst people. The website's AI backend was written using TensorflowJs and MoveNet for fast realtime and accurate pose estimation. The yoga trainer current;y supports 7 yoga poses. The website uses the camera of your device to predict your pose and counts how many seconds you can hold that pose and records your best time. 
 
 <h1> Screenshots of Website</h1>
 
