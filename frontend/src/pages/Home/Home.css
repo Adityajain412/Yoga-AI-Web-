@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=BalluBhai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;1,200&display=swap');
+
+.home-header {
+  /* background-image: linear-gradient(-45deg, #9f7a7a 3%, #050214 25%, #060007 55%, #756a4c 100%); */
+  background: #488d46;
+  animation: AnimateBG 16s ease infinite; 
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home-container {
+  background: rgb(43, 43, 43);
+}
+
+.header-btn:hover {
+  border-color: white;
+}
+
+.home-heading {
+  padding: 0;
+  margin: 0;
+  font-size: 44px;
+  color: rgb(10, 9, 9);
+  font-family: 'BalluBhai', sans-serif;
+}
+
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  z-index: -1;
+  background: rgb(43, 43, 43);
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/premium-vector/yoga-pose-logo-sunset-outline-silhouette_227744-175.jpg?w=740');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  padding: 20px;
+  overflow: hidden;
+  animation: animateBG 20s ease-in-out infinite;
+}
+
+@keyframes animateBG {
+  0% {
+    background-position: 0% 0%;
+  }
+  
+  50% {
+    background-position: 100% 100%; 
+  }
+  
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.description {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.btn-section {
+  position: absolute;
+  top: 60vh;
+}
+
+.btn {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px 20px 10px 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 24px;
+  border-color: #56cbfd;
+  border-radius: 8px;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255,165,0, 0.2);
+  color: white; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#about-btn {
+  padding: 5px 10px; 
+}
+
+#about-btn:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+#about-btn:focus {
+  box-shadow: none;
+  background: white;
+  border-color: white;
+  color: black;
+}

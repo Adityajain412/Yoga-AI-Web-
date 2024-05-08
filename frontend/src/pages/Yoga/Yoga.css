@@ -1,0 +1,148 @@
+/* Background */
+
+.yoga-container {
+    background-image: linear-gradient(-45deg, #130b0b 3%, #04010f 25%, #090109 55%, #28886e 100%);
+    animation: AnimateBG 16s ease infinite;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  
+  /* Animations */
+  
+  @keyframes AnimateBG {
+    0% { 
+      background-position: 0% 50%;
+    }
+    
+    50% {
+      background-position: 100% 50%; 
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Buttons */
+  
+  .secondary-btn {
+    position: relative;
+    align-self: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: rgba(125, 125, 125, 0.1);
+    border-width: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 0px 0px;
+    color: white;  
+  }
+  
+  .secondary-btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Countdown Timer */
+  
+  .starting-contdown {
+    margin: auto;
+    border: 10px solid rgba(125, 125, 125, 0.5);
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    top: 45%;
+  }
+  
+  .starting-contdown h1 {
+    color: white;
+  }
+  
+  /* Layout */ 
+  
+  .sidebysidecontainer {
+    display: flex; 
+    margin-top: 15em;
+    align-items: center;
+  }
+  
+  .performance-container {
+    /* margin: 6rem;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    flex-direction: row;   */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+  /* Media Queries */
+  
+  @media (max-width: 480px) {
+  
+    .sidebysidecontainer {
+      flex-direction: column;
+      align-items: center;
+      padding: 1em;
+      margin-top: 5em;
+    }
+    
+    .performance-container {
+      margin: 6rem 1em; 
+      flex-direction: column;
+      margin-top: -1em;
+      padding: 1em;
+    }
+  
+    #webcam {
+      transform: rotateY(180deg); 
+      height: 14.9rem;
+      margin-bottom: 1em;
+    }
+  
+    #my-canvas {
+      left: 15vw;
+    }
+  
+  }
+  
+  /* Component Styling */ 
+  
+  .pose-img {
+    height: 20rem;
+    aspect-ratio: 1;
+  }
+  
+  .pose-performance {
+    /* margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;  */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .pose-performance h4 {
+    color: rgba(0,0,0,0.7);
+  }
+  
+  #webcam {
+    transform: rotateY(180deg);
+    height: 20rem;  
+  }
+  
+  #my-canvas {
+    transform: rotateY(180deg);
+    left: 30rem;
+  }
